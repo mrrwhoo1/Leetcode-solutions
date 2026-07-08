@@ -24,7 +24,7 @@ Each problem gets its own folder containing the solution(s):
 | Problem ID | Title | Difficulty | Solutions | Key Approach / Notes |
 | :---: | :--- | :---: | :---: | :--- |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Python](./0001-two-sum/solution.py), [C++](./0001-two-sum/solution.cpp) | Hash Map (O(n) time complexity) |
-| 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [Python](./0009-Palindorme%20Number/solution.py), [C++](./0009-Palindorme%20Number/solution.py) | Math / Reversing Digits (O(log n) time) |
+| 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [Python](./0009-Palindorme%20Number/solution.py), [C++](./0009-Palindorme%20Number/solution.cpp) | Math / Reversing Digits (O(log n) time) |
 | 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [Python](./0013-RomanToInt/solution.py) | Hash Map / Linear Scan (O(n) time) |
 
 *Note: The table above is updated manually as I complete new challenges.*
