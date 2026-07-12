@@ -1,18 +1,14 @@
-# def isValid(self, s: str) -> bool:
-empty_stack = []
-empty_closing = []
+class Solution:
+    def isValid(self, s: str) -> bool:
+        self.stack = []
+        self.pairs = {")": "(", "]": "[", "}": "{"}
 
-opening = ["(", "[", "{"]
-closing_to_opening = {"(": ")", "{": "}", "[": "]"}
+        for char in s:
+            if char in "([{":
+                self.stack.append(char)
+            else:
+                if not self.stack or self.stack[-1] != self.pairs[char]:
+                    return False
+                self.stack.pop()
 
-
-def check(p):
-    index = 0
-    first = empty_stack[index]
-    first_closing = empty_closing[index]
-
-
-user = input("Enter Parenthesis: ")
-for i in user:
-    if i in opening:
-        empty_stack.append(i)
+        return len(self.stack) == 0
