@@ -28,7 +28,7 @@ Each problem gets its own folder containing the solution(s):
 | 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [Python](./0013-RomanToInt/solution.py), [C++](./0013-RomanToInt/solution.cpp) | Hash Map / Linear Scan (O(n) time) |
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [Python](./0014-LongestCommonPrefix/solution.py), [C++](./0014-LongestCommonPrefix/solution.cpp) | Horizontal Scanning (O(S) time complexity) |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Python](./0020-ValidParentheses/solution.py), [C++](./0020-ValidParentheses/solution.cpp) | Stack / LIFO Matching (O(n) time complexity) |
-| 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [Python](./0021-MergeTwoSortedLists/solution.py) | Linked List / Two-Pointer Merge (O(n+m) time complexity) |
+| 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [Python](./0021-MergeTwoSortedLists/solution.py), [C++](./0021-MergeTwoSortedLists/solution.cpp) | Linked List / Two-Pointer Merge (O(n+m) time complexity) |
 
 *Note: The table above is updated manually as I complete new challenges.*
 
